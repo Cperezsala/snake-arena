@@ -1,36 +1,36 @@
 # 🐍 Snake Arena
 
-Snake Arena es un juego **Snake multijugador en tiempo real**, desarrollado con:
+Snake Arena is a **real-time multiplayer Snake game** built with:
 
-- **Frontend:** Angular + Canvas
+- **Frontend:** Angular + Canvas  
 - **Backend:** Spring Boot + WebSockets (STOMP)
 
-El objetivo del proyecto es **entrenar arquitectura de sistemas en tiempo real**, clean code y buenas prácticas full-stack.
+The main goal of this project is to **practice real-time system architecture, clean code, and full-stack development best practices**.
 
 ---
 
 ## 🚀 Roadmap
 
-### Fase 1 — Juego local (Angular)
-- [ ] Motor de juego desacoplado
-- [ ] Renderizado con Canvas
-- [ ] Movimiento + colisiones
-- [ ] Comida + puntuación
-- [ ] Reinicio de partida
+### Phase 1 — Local Game (Angular)
+- [ ] Decoupled game engine
+- [ ] Canvas rendering
+- [ ] Movement + collisions
+- [ ] Food + scoring
+- [ ] Restart system
 
-### Fase 2 — Preparación multijugador
-- [ ] Soporte local para múltiples serpientes
-- [ ] Arquitectura server-authoritative
+### Phase 2 — Multiplayer Preparation
+- [ ] Multi-snake support (local simulation)
+- [ ] Server-authoritative architecture
 
-### Fase 3 — Multijugador online
-- [ ] Backend con Spring Boot + WebSockets
-- [ ] Lobby + salas
-- [ ] Sincronización de estado en tiempo real
-- [ ] Sistema de reconexión
+### Phase 3 — Online Multiplayer
+- [ ] Spring Boot backend + WebSockets
+- [ ] Lobby + rooms
+- [ ] Real-time state synchronization
+- [ ] Reconnection handling
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 snake-arena/
 ├── client/    # Angular frontend
 ├── server/    # Spring Boot backend (coming soon)
